@@ -9,14 +9,14 @@ const grid = None;
 
 const = /(turn on|turn off|toggle) through/;
 
-for(let x = X; x <= X; x++);{
-  for(let y = Y; y <=; y++)
+for(let x = x1; x <= x2; x++) ;{
+  for(let y = y1; y <= y2; y++)
      if (action === "turn on") {
-       = 1; 
+       grid[x][y] = 1;
      } else if (action === "turn off"){
-       = 0;
-     }else if (action === "toggle"){
-       === 0 ? 1 : 0;
+       grid[x][y] = 0;
+     } else if (action === "toggle"){
+       grid[x][y] = grid[x][y] === 0 ? 1 : 0;
      }
 }
 
