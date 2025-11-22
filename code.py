@@ -21,3 +21,6 @@ print(p2.off, p2.on)
 
 p1.turn_on()
 print("p1 state:", p1.state)
+
+p2.turn_off()
+print("p2 state:", p2.state)
