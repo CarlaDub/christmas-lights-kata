@@ -16,6 +16,9 @@ class Lights:
         else:
             self.turn_off()
 
+p1 = Lights("OFF", "ON")
+p2 = Lights("OFF", "ON")
+
 print(p1.off, p1.on)
 print(p2.off, p2.on)
 
