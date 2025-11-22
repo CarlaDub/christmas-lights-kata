@@ -4,7 +4,8 @@ turn off x1,y1 through x2,y2
 
 toggle x1,y1 through x2,y2
 
-const grid = 1000;
+const size = 1000;
+const grid = None;
 
 const = /(turn on|turn off|toggle) through/;
 
