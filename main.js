@@ -5,7 +5,7 @@ turn off x1,y1 through x2,y2
 toggle x1,y1 through x2,y2
 
 const size = 1000;
-const grid = None;
+const grid = Array.from({ length: size }, () => Array(size).fill(0));
 
 const = /(turn on|turn off|toggle) through/;
 
@@ -20,9 +20,9 @@ for(let x = x1; x <= x2; x++) ;{
      }
 }
 
-for(let x = 0; x < grid; x++);{
-  for(let y = 0; y < grid; y++) {
-     if (x,y === 1)
+for(let x = 0; x < size; x++);{
+  for(let y = 0; y < sire; y++) {
+     if (grid[x][y] === 1);
   }
 }
 const instructions = [
