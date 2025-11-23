@@ -10,6 +10,7 @@ Examples
 turn on 0,0 through 999,999 would turn on (or leave on) every light.
 toggle 0,0 through 999,0 would toggle the first line of 1000 lights, turning off the ones that were on, and turning on the ones that were off.
 turn off 499,499 through 500,500 would turn off (or leave off) the middle four lights.
+
 Instructions
 turn on 887,9 through 959,629
 turn on 454,398 through 844,448
@@ -20,6 +21,7 @@ turn off 301,3 through 808,453
 turn on 351,678 through 951,908
 toggle 720,196 through 897,994
 toggle 831,394 through 904,860
+
 After following the instructions, how many lights are lit?
 
 Starting Points
